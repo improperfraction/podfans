@@ -48,7 +48,7 @@ function HorizontalCardSlider({ cards }) {
                                     <TruncateText text={podcast.name} maxlength={25} />
                                 </h5>
                                     <span className=" text-sm text-gray-600 dark:text-gray-400">
-                                        <TruncateText text={podcast.publisher} maxlength={30} />
+                                        <TruncateText text={podcast.publisher} maxlength={20} />
                                     </span>
                                 <button className="lg:mt-4 mt-3 inline-flex items-center px-2 py-[4px]  lg:px-3 lg:py-[6px] text-sm font-medium text-white bg-green-500 rounded-lg hover:bg-green-600  dark:bg-green-500 dark:hover:bg-green-600">Listen on Spotify </button>
                             </div>
